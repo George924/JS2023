@@ -8,16 +8,18 @@
 </head>
 <body>
     <script>
-        let a = 7 ;
-        let b = 5 ;
-        let aux ;
-        aux= a ;
-        a = b ;
-        b = aux ;
-
-        console.log(a);
-        console.log(b);
-
+        var i = 1;
+        function primaFunctie(){
+            i= i+1;
+            document.write('<p> Buna seara</p>');
+            if(i<= 10){
+                primaFunctie();
+            }
+        }
+       for(let i = 1; i<=10;i++){
+        
+       }
+       primaFunctie();
         
     </script>
 </body>
